@@ -37,6 +37,8 @@ export const getStats = () => API.get('/stats')
 
 // Settings
 export const getSettings = () => API.get('/settings')
+export const getAllSettings = () => API.get('/settings/all')
 export const updateSettings = (data) => API.put('/settings', data)
+export const testSmtp = (data) => API.post('/settings/test-smtp', data)
 
 export default API
