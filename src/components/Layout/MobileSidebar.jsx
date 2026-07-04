@@ -40,7 +40,7 @@ export default function MobileSidebar({ isOpen, onClose }) {
 
             <motion.div className="mt-auto pt-8 border-t border-white/8" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .5 }}>
               <a href="#booking" onClick={onClose} className="block w-full text-center py-4 rounded-full bg-gradient-to-r from-orange to-orange-2 text-[#130805] font-black text-sm shadow-lg mb-4">
-                Book Now
+                GET TICKETS
               </a>
               <div className="flex items-center gap-3 justify-center">
                 <a href="mailto:info@pluggedinfaith.com" className="text-sm text-muted hover:text-amber transition-colors">info@pluggedinfaith.com</a>

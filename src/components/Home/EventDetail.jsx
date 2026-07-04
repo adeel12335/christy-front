@@ -17,7 +17,7 @@ export default function EventDetail() {
   return (
     <section id="event" className="relative z-3 min-h-[860px] grid items-center overflow-hidden max-md:min-h-[auto] max-md:py-16 max-sm:py-12">
       <div className="absolute inset-0 -z-2">
-        <img src="/newImages/5acb1806-3016-4346-86d3-903123c547b1.png" alt="" className="w-full h-[120%] object-cover brightness-[.52] saturate-[1.12]" />
+        <img src="/hero-beach-night.png" alt="" className="w-full h-[120%] object-cover brightness-[.52] saturate-[1.12]" />
       </div>
       <div className="absolute inset-0 -z-1" style={{ background: 'linear-gradient(90deg, #050303 0%, rgba(5,3,3,.68) 45%, rgba(5,3,3,.9) 100%)' }} />
 
@@ -33,7 +33,7 @@ export default function EventDetail() {
             ))}
           </div>
           <p className="text-muted leading-relaxed mb-5">Unleashed is not just an event. It is an outpouring. In light of recent tragedies and the weight many are carrying, this moment is intentional.</p>
-          <a href="#booking" className="btn-shine inline-flex items-center justify-center min-h-[52px] rounded-full px-6 font-black bg-gradient-to-br from-orange to-orange-2 text-[#130805] shadow-[0_22px_64px_rgba(255,91,21,.27)] relative isolate overflow-hidden">Book Your Spot</a>
+          <a href="#booking" className="btn-shine inline-flex items-center justify-center min-h-[52px] rounded-full px-6 font-black bg-gradient-to-br from-orange to-orange-2 text-[#130805] shadow-[0_22px_64px_rgba(255,91,21,.27)] relative isolate overflow-hidden">GET TICKETS</a>
         </motion.div>
 
         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="grid gap-4">

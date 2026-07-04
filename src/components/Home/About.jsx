@@ -29,7 +29,7 @@ export default function About() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: .7 }} className="relative">
-          <img src="/newImages/23fca523-9ef0-47ad-be70-2f39ee878f51.png" alt="Prayer circle on the beach" className="w-full rounded-[28px] shadow-[0_30px_100px_rgba(0,0,0,.55)] border border-white/10 aspect-[16/10] object-cover" />
+          <img src="/prayer-circle.png" alt="Prayer circle on the beach" className="w-full rounded-[28px] shadow-[0_30px_100px_rgba(0,0,0,.55)] border border-white/10 aspect-[16/10] object-cover" />
           <div className="relative -mt-20 mx-3 sm:mx-8 rounded-[28px] bg-gradient-to-b from-white/8 to-white/[.025] border border-white/12 p-6 sm:p-8 shadow-[0_30px_100px_rgba(0,0,0,.55)] overflow-hidden">
             <div className="absolute -inset-[20%] blur-[20px]" style={{ background: 'radial-gradient(circle at 50% 34%, rgba(255,101,20,.42), transparent 32%), radial-gradient(circle at 70% 70%, rgba(255,177,90,.16), transparent 28%)' }} />
             <h3 className="relative font-serif text-[clamp(22px,3vw,36px)] leading-tight mb-3.5">"And afterward, I will pour out my Spirit on all people…"</h3>

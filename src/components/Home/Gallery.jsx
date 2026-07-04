@@ -6,13 +6,15 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 
 const slides = [
-  { src: '/newImages/afdc8d53-fe1c-4103-a465-739bc0783277.png', label: 'Beach Stage Sunset' },
-  { src: '/newImages/dae5d0ab-0ca8-40e1-b4ac-a8ab19fc83cf.png', label: 'Worship Atmosphere' },
-  { src: '/newImages/5acb1806-3016-4346-86d3-903123c547b1.png', label: 'Ocean Stage View' },
-  { src: '/newImages/23fca523-9ef0-47ad-be70-2f39ee878f51.png', label: 'Prayer & Community' },
-  { src: '/newImages/233d9d3a-2e1e-4163-a08f-52a16e95164f.png', label: 'Surrender & Encounter' },
-  { src: '/newImages/ad39f1b0-230d-4815-ba80-874440e9c41b.png', label: 'Event Flyer', poster: true },
-  { src: '/newImages/c0a68368-0073-4404-8fa4-5781d70c79fe.png', label: 'Square Promo', square: true },
+  { src: '/hero-speaker-stage.png', label: 'Speaker & Worship' },
+  { src: '/hero-beach-sunset.png', label: 'Beach Stage Sunset' },
+  { src: '/hero-stage-blue.png', label: 'Stage & Cross' },
+  { src: '/prayer-circle.png', label: 'Prayer & Community' },
+  { src: '/prayer-kneeling.png', label: 'Surrender & Encounter' },
+  { src: '/gallery-beach-prayer.png', label: 'Beach Prayer' },
+  { src: '/hero-worship-crowd.png', label: 'Worship Atmosphere' },
+  { src: '/event-poster.png', label: 'Event Poster', poster: true },
+  { src: '/event-poster-square.png', label: 'Event Promo', square: true },
 ]
 
 export default function Gallery() {

@@ -30,7 +30,7 @@ export default function LoginPage() {
       <div className="w-full max-w-[420px]">
         <div className="text-center mb-8">
           <h1 className="font-display text-4xl tracking-tight">UNLEASHED</h1>
-          <p className="text-muted mt-2">Admin Panel</p>
+          <p className="text-muted mt-2">Plugged in Faith — Admin</p>
         </div>
 
         <form onSubmit={handleSubmit} className="bg-glass border border-white/12 backdrop-blur-3xl shadow-[0_30px_100px_rgba(0,0,0,.55)] rounded-[28px] p-8">

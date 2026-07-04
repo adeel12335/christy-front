@@ -7,10 +7,11 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/pagination'
 
 const slides = [
-  { src: '/assets/img/hero-cross.jpg', alt: 'Worship crowd before a glowing cross' },
-  { src: '/newImages/afdc8d53-fe1c-4103-a465-739bc0783277.png', alt: 'Beach stage worship at sunset' },
-  { src: '/newImages/dae5d0ab-0ca8-40e1-b4ac-a8ab19fc83cf.png', alt: 'Worship crowd with hands raised' },
-  { src: '/newImages/5acb1806-3016-4346-86d3-903123c547b1.png', alt: 'Stage from ocean view' },
+  { src: '/hero-speaker-stage.png', alt: 'Speaker on stage with worship crowd' },
+  { src: '/hero-beach-sunset.png', alt: 'Beach stage worship at sunset' },
+  { src: '/hero-worship-crowd.png', alt: 'Worship crowd with hands raised' },
+  { src: '/hero-stage-blue.png', alt: 'Stage with cross and blue lights' },
+  { src: '/hero-beach-night.png', alt: 'Beach night worship wide angle' },
 ]
 
 const meta = [

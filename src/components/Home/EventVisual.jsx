@@ -5,8 +5,8 @@ export default function EventVisual() {
     <section id="updates" className="relative z-3 py-20 md:py-30" style={{ background: 'linear-gradient(180deg, #0b0605, #050303)' }}>
       <div className="w-[min(1180px,calc(100%-40px))] mx-auto grid md:grid-cols-[1fr_.9fr] gap-12 md:gap-[70px] items-center">
         <motion.div initial={{ opacity: 0, scale: .9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="relative min-h-[380px] sm:min-h-[500px] md:min-h-[690px]">
-          <img src="/newImages/ad39f1b0-230d-4815-ba80-874440e9c41b.png" alt="Unleashed event flyer" className="absolute left-[8%] top-0 w-[70%] rounded-[20px] sm:rounded-[28px] shadow-[0_35px_120px_rgba(0,0,0,.7)] border border-white/12 max-h-[320px] sm:max-h-[480px] md:max-h-[650px] object-cover -rotate-3 z-2" />
-          <img src="/newImages/c0a68368-0073-4404-8fa4-5781d70c79fe.png" alt="Unleashed square promo" className="absolute right-[4%] bottom-2.5 w-[58%] rounded-[20px] sm:rounded-[28px] shadow-[0_35px_120px_rgba(0,0,0,.7)] border border-white/12 max-h-[300px] sm:max-h-[480px] md:max-h-[650px] object-cover rotate-5 brightness-[.65]" />
+          <img src="/event-poster.png" alt="Unleashed event flyer" className="absolute left-[8%] top-0 w-[70%] rounded-[20px] sm:rounded-[28px] shadow-[0_35px_120px_rgba(0,0,0,.7)] border border-white/12 max-h-[320px] sm:max-h-[480px] md:max-h-[650px] object-cover -rotate-3 z-2" />
+          <img src="/event-poster-square.png" alt="Unleashed square promo" className="absolute right-[4%] bottom-2.5 w-[58%] rounded-[20px] sm:rounded-[28px] shadow-[0_35px_120px_rgba(0,0,0,.7)] border border-white/12 max-h-[300px] sm:max-h-[480px] md:max-h-[650px] object-cover rotate-5 brightness-[.65]" />
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
           <p className="uppercase tracking-[.28em] text-amber text-xs font-extrabold mb-4">Flagship Gathering</p>

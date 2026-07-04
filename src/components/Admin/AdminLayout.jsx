@@ -17,7 +17,7 @@ export default function AdminLayout() {
       <aside className="w-[260px] border-r border-white/8 bg-white/[.02] flex flex-col max-md:w-[70px]">
         <div className="p-6 border-b border-white/8 max-md:p-3 max-md:text-center">
           <h1 className="font-display text-xl tracking-tight max-md:text-sm">UNLEASHED</h1>
-          <p className="text-muted text-xs mt-1 max-md:hidden">Admin Panel</p>
+          <p className="text-muted text-xs mt-1 max-md:hidden">Plugged in Faith — Admin</p>
         </div>
 
         <nav className="flex-1 p-3 flex flex-col gap-1">
