@@ -8,10 +8,8 @@ import EventVisual from '../components/Home/EventVisual'
 import Pillars from '../components/Home/Pillars'
 import EventDetail from '../components/Home/EventDetail'
 import Gallery from '../components/Home/Gallery'
-import BookingSection from '../components/Home/BookingSection'
 import Artists from '../components/Home/Artists'
 import RSVP from '../components/Home/RSVP'
-import FloatingBookBtn from '../components/Layout/FloatingBookBtn'
 import Footer from '../components/Layout/Footer'
 
 export default function HomePage() {
@@ -28,12 +26,10 @@ export default function HomePage() {
         <Pillars />
         <EventDetail />
         <Gallery />
-        <BookingSection />
         <Artists />
         <RSVP />
       </main>
       <Footer />
-      <FloatingBookBtn />
     </>
   )
 }
