@@ -7,12 +7,12 @@ import 'swiper/css/navigation'
 
 const slides = [
   { src: '/hero-speaker-stage.png', label: 'Speaker & Worship' },
-  { src: '/hero-beach-sunset.png', label: 'Beach Stage Sunset' },
+  { src: '/hero-beach-sunset.png', label: 'Worship Concert' },
   { src: '/hero-stage-blue.png', label: 'Stage & Cross' },
-  { src: '/prayer-circle.png', label: 'Prayer & Community' },
+  { src: '/prayer-circle.png', label: 'Fire & Spirit' },
   { src: '/prayer-kneeling.png', label: 'Surrender & Encounter' },
-  { src: '/gallery-beach-prayer.png', label: 'Beach Prayer' },
-  { src: '/hero-worship-crowd.png', label: 'Worship Atmosphere' },
+  { src: '/gallery-beach-prayer.png', label: 'Indoor Worship' },
+  { src: '/hero-worship-crowd.png', label: 'Arena Atmosphere' },
   { src: '/event-poster.png', label: 'Event Poster', poster: true },
   { src: '/event-poster-square.png', label: 'Event Promo', square: true },
 ]

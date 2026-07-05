@@ -7,11 +7,11 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/pagination'
 
 const slides = [
-  { src: '/hero-speaker-stage.png', alt: 'Speaker on stage with worship crowd' },
-  { src: '/hero-beach-sunset.png', alt: 'Beach stage worship at sunset' },
-  { src: '/hero-worship-crowd.png', alt: 'Worship crowd with hands raised' },
+  { src: '/hero-speaker-stage.png', alt: 'Speaker on stage with fire and cross' },
+  { src: '/hero-beach-sunset.png', alt: 'Indoor worship concert with band and crowd' },
+  { src: '/hero-worship-crowd.png', alt: 'Arena worship crowd with hands raised' },
   { src: '/hero-stage-blue.png', alt: 'Stage with cross and blue lights' },
-  { src: '/hero-beach-night.png', alt: 'Beach night worship wide angle' },
+  { src: '/hero-beach-night.png', alt: 'Indoor arena with cross and orange lights' },
 ]
 
 const meta = [
