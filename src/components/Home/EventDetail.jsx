@@ -33,7 +33,7 @@ export default function EventDetail() {
             ))}
           </div>
           <p className="text-muted leading-relaxed mb-5">Unleashed is not just an event. It is an outpouring. In light of recent tragedies and the weight many are carrying, this moment is intentional.</p>
-          <a href="#booking" className="btn-shine inline-flex items-center justify-center min-h-[52px] rounded-full px-6 font-black bg-gradient-to-br from-orange to-orange-2 text-[#130805] shadow-[0_22px_64px_rgba(255,91,21,.27)] relative isolate overflow-hidden">GET TICKETS</a>
+          <a href="#rsvp" className="btn-shine inline-flex items-center justify-center min-h-[52px] rounded-full px-6 font-black bg-gradient-to-br from-orange to-orange-2 text-[#130805] shadow-[0_22px_64px_rgba(255,91,21,.27)] relative isolate overflow-hidden">GET TICKETS</a>
         </motion.div>
 
         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="grid gap-4">

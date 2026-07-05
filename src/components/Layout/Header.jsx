@@ -5,9 +5,8 @@ const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
   { href: '#event', label: 'Event' },
-  { href: '#booking', label: 'Book' },
   { href: '#artists', label: 'Artists' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#rsvp', label: 'Contact' },
 ]
 
 export default function Header() {
@@ -34,7 +33,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <a href="#booking" className="hidden md:inline-flex py-3 px-5 rounded-full bg-gradient-to-br from-orange to-orange-2 text-[13px] font-extrabold shadow-[0_12px_38px_rgba(255,91,21,.25)] hover:scale-[1.04] transition-transform">
+        <a href="#rsvp" className="hidden md:inline-flex py-3 px-5 rounded-full bg-gradient-to-br from-orange to-orange-2 text-[13px] font-extrabold shadow-[0_12px_38px_rgba(255,91,21,.25)] hover:scale-[1.04] transition-transform">
           GET TICKETS
         </a>
 

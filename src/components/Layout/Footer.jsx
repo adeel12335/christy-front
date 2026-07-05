@@ -21,7 +21,7 @@ export default function Footer() {
         <div>
           <h4 className="mb-3.5 text-white font-bold">Event</h4>
           <a href="#event" className="block text-muted my-2.5 hover:text-amber transition-colors">UNLEASHED</a>
-          <a href="#booking" className="block text-muted my-2.5 hover:text-amber transition-colors">Get Tickets</a>
+          <a href="#rsvp" className="block text-muted my-2.5 hover:text-amber transition-colors">Get Tickets</a>
           <a href="#artists" className="block text-muted my-2.5 hover:text-amber transition-colors">Artists &amp; Speakers</a>
         </div>
       </div>

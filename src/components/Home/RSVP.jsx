@@ -23,7 +23,7 @@ export default function RSVP() {
   }
 
   return (
-    <section id="contact" className="relative z-3 py-20 md:py-30" style={{ background: 'linear-gradient(180deg, #050303, #0a0706)' }}>
+    <section id="rsvp" className="relative z-3 py-20 md:py-30" style={{ background: 'linear-gradient(180deg, #050303, #0a0706)' }}>
       <div className="w-[min(720px,calc(100%-40px))] mx-auto">
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-14">
           <p className="uppercase tracking-[.28em] text-amber text-xs font-extrabold mb-4">Stay Connected</p>

@@ -5,9 +5,8 @@ const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
   { href: '#event', label: 'Event' },
-  { href: '#booking', label: 'Book' },
   { href: '#artists', label: 'Artists' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#rsvp', label: 'Contact' },
 ]
 
 const backdrop = { hidden: { opacity: 0 }, visible: { opacity: 1 }, exit: { opacity: 0 } }
@@ -39,7 +38,7 @@ export default function MobileSidebar({ isOpen, onClose }) {
             </div>
 
             <motion.div className="mt-auto pt-8 border-t border-white/8" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .5 }}>
-              <a href="#booking" onClick={onClose} className="block w-full text-center py-4 rounded-full bg-gradient-to-r from-orange to-orange-2 text-[#130805] font-black text-sm shadow-lg mb-4">
+              <a href="#rsvp" onClick={onClose} className="block w-full text-center py-4 rounded-full bg-gradient-to-r from-orange to-orange-2 text-[#130805] font-black text-sm shadow-lg mb-4">
                 GET TICKETS
               </a>
               <div className="flex items-center gap-3 justify-center">

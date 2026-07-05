@@ -48,7 +48,7 @@ export default function Hero() {
           Empowering a generation to dream, see, and speak through the power of the Holy Spirit.
         </motion.p>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.3 }} className="flex gap-3 flex-wrap mt-6 max-sm:flex-col">
-          <a href="#booking" className="btn-shine inline-flex items-center justify-center min-h-[52px] rounded-full px-6 font-black bg-gradient-to-br from-orange to-orange-2 text-[#130805] shadow-[0_22px_64px_rgba(255,91,21,.27)] relative isolate overflow-hidden max-sm:w-full max-sm:min-h-[48px] max-sm:text-sm">Join the Movement</a>
+          <a href="#rsvp" className="btn-shine inline-flex items-center justify-center min-h-[52px] rounded-full px-6 font-black bg-gradient-to-br from-orange to-orange-2 text-[#130805] shadow-[0_22px_64px_rgba(255,91,21,.27)] relative isolate overflow-hidden max-sm:w-full max-sm:min-h-[48px] max-sm:text-sm">Join the Movement</a>
           <a href="#event" className="inline-flex items-center justify-center min-h-[52px] rounded-full px-6 font-black bg-white/[.07] border border-white/[.16] backdrop-blur-[14px] hover:bg-white/[.12] max-sm:w-full max-sm:min-h-[48px] max-sm:text-sm">Get Event Updates</a>
         </motion.div>
 
